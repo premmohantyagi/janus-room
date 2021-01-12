@@ -7,7 +7,7 @@ A Janus client library that provides simple interface to create a minimal-comple
 ### Install
 
 ```
-$ npm install janus-room
+$ npm install
 ```
 
 ### Basic usage
@@ -76,7 +76,7 @@ Please note that toggleMute\* only mute the stream, not stop it. Use `togggleVid
 Adjust the Janus gateway URL in `example.js`, then,
 
 - `npm install`
-- `npm run build`
+- `npm run-script build`
 - Open `example.html` on your web browser.
 
 ### Warning
